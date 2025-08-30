@@ -1,0 +1,56 @@
+@import "../Fonts/SFprodisplay.css";
+.Footer {
+  background-color: #16181b;
+  padding: 15px 38px;
+}
+.Footer .footer-parent .footer-copy a {
+  text-decoration: none;
+  color: rgb(77, 80, 86);
+  transition: color 0.3s ease, transform 0.3s ease;
+  font-size: 15px;
+  font-weight: 500;
+}
+.Footer .footer-parent .footer-copy a:hover {
+  color: #ff9100;
+  transform: scale(1.05);
+}
+.Footer .footer-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.Footer .footer-parent .foot-links {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+.Footer .footer-parent .foot-links li a {
+  text-decoration: none;
+  color: rgb(77, 80, 86);
+  font-size: 15px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  font-weight: 500;
+}
+.Footer .footer-parent .foot-links li a:hover {
+  color: #ff9100;
+  transform: scale(1.05);
+}
+.Footer .footer-parent .footer-terms {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.Footer .footer-parent .footer-content {
+  color: rgb(77, 80, 86);
+  font-size: 15px;
+  font-weight: 500;
+}
+.Footer .footer-parent .footer-terms a {
+  color: rgb(120, 122, 126);
+  font-size: 15px;
+  font-weight: 700;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.Footer .footer-parent .footer-terms a:hover {
+  color: #ff9100;
+  transform: scale(1.05);
+}

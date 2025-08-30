@@ -1,0 +1,167 @@
+@import "../Fonts/SFprodisplay.css";
+.topsection {
+  background-color: rgb(31, 33, 37);
+  padding: 20px;
+}
+.Productcard {
+  background-color: rgb(22, 24, 27);
+  padding: 20px;
+}
+.Productcard .parentswiper .swiper__thumb {
+  cursor: pointer;
+  width: 133%;
+  margin-top: 10px;
+}
+.Productcard .parentswiper .main__swiper {
+  /* width: 80%; */
+  cursor: pointer;
+}
+.Productcard .swiper__thumb .swiper-slide {
+  height: 100% !important;
+}
+.Productcard .product-nextsec .product-head {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.Productcard .product-nextsec .product-stars {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.Productcard .product-nextsec .product-stars i {
+  color: rgb(255, 145, 6);
+  font-size: 21px;
+}
+.Productcard .product-nextsec .star-grey {
+  color: #51545a !important;
+}
+.Productcard .product-nextsec .product-review {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.Productcard .product-nextsec .product-info {
+  font-size: 16px;
+  color: #51545a;
+}
+.Productcard .product-nextsec .product-price {
+  font-size: 15px;
+  color: #51545a;
+}
+.product-fullprice {
+  color: rgb(255, 145, 0);
+  font-size: 25px;
+}
+.Productcard .product-nextsec .product-para {
+  color: #7a7f84;
+  font-size: 14px;
+  line-height: 15px;
+}
+.Productcard .product-nextsec .product-endtext {
+  color: #7a7f84;
+  font-size: 14px;
+  text-align: right;
+  margin: 10px 0;
+}
+.Productcard .product-nextsec .product-last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Productcard .product-nextsec .product-content {
+  color: #7a7f84;
+  font-size: 14px;
+}
+.product-btn {
+  border-radius: 13px;
+  padding: 3px 19px;
+}
+.Productcard .banner-parent {
+  position: relative;
+  z-index: 9;
+  height: 100%;
+  object-fit: cover;
+}
+.Productcard .banner-parent .banner-back {
+  background: #000000;
+  opacity: 0.8;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  left: 17px;
+  width: 221px;
+  height: 265px;
+  padding: 14px;
+}
+.Productcard .banner-parent .banner-head {
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+}
+.Productcard .banner-parent .banner-space {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.Productcard .banner-parent .banner-date {
+  color: white;
+  font-size: 14px;
+}
+.Productcard .banner-parent .banner-time {
+  color: white;
+  font-size: 14px;
+}
+.Productcard .banner-parent .banner-content {
+  color: #abb1b8;
+  font-size: 14px;
+  line-height: 17px;
+}
+.Productcard .banner-parent .banner-label {
+  background: #000000;
+  opacity: 0.8;
+  width: 234px;
+  height: 68px;
+  border-radius: 10px;
+  padding: 20px 14px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 13px;
+  left: 8px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.Productcard .banner-parent img {
+  height: 100%;
+}
+.Productcard .product-title {
+  display: flex;
+  gap: 10px;
+  margin: 43px 0;
+}
+.Productcard .product-title .product-warn {
+  color: #7a7f84;
+  font-size: 18px;
+}
+.Productcard .product-title i {
+  font-size: 19px;
+  color: #7a7f84;
+  cursor: pointer;
+}
+.product-card1 {
+  font-size: 19px !important;
+  padding-left: 55px;
+  color: #73777d !important;
+}
+.product-lastprice {
+  color: #73777d !important;
+  font-size: 21px;
+}
+.pro-btn {
+  background-color: #51545a;
+}
+.cat-para {
+  padding: 10px 0;
+}

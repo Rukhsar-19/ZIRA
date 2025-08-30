@@ -1,0 +1,77 @@
+@import "../Fonts/SFprodisplay.css";
+.Filters {
+  background-color: rgb(31, 33, 37);
+  padding: 10px;
+}
+.Filters .dropdownfilter {
+  display: flex;
+  gap: 46px;
+  align-items: center;
+}
+.Filters .filtersparent {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 220px;
+  padding-right: 39px;
+}
+.dropdown-inline {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.dropdown-inline .sort-text {
+  color: #ff9100;
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.dropdown-select {
+  font-size: 15px;
+  border: none;
+  background: transparent;
+  color: #7a7f84;
+  cursor: pointer;
+  appearance: none;
+
+  padding-right: 26px;
+}
+.dropdown-select option {
+  background-color: black;
+  color: grey;
+  font-size: 14px;
+  border: none;
+}
+
+.custom-select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-select-wrapper::after {
+  content: "▶";
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: gray;
+  pointer-events: none;
+}
+
+.custom-select-wrapper.open::after {
+  content: "▼";
+}
+.Filters .filtersparent .viewsimage i {
+  color: #7a7f84;
+  font-size: 25px;
+}
+.Filters .filtersparent .viewsimage {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.Filters .filtersparent .chnageview {
+  color: #ff9100 !important;
+}

@@ -1,0 +1,63 @@
+@import "../Fonts/SFprodisplay.css";
+.Dishes {
+  background-color: rgb(22, 24, 27);
+  padding: 20px;
+}
+.Dishes .dishes-right {
+  position: relative;
+}
+.Dishes .dishes-right .dish-label {
+  background-color: orange;
+  border-radius: 0 27px 27px 0;
+  padding: 6px 25px;
+  /* max-width: 100%;
+  width: auto;
+  display: inline-block; */
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+.Dishes .dishes-right .dish-label i {
+  font-size: 23px;
+  font-weight: bold;
+}
+.Dishes .dishes-back {
+  background: white;
+  padding: 24px 0px 15px 20px;
+  border-radius: 0px 0px 8px 8px;
+}
+.Dishes .dishes-back .dishes-head {
+  color: black;
+  font-size: 23px;
+  padding-right: 30px;
+  font-weight: bold;
+}
+.Dishes .dishes-back .dishes-content {
+  margin: 20px 0;
+  font-size: 17px;
+  padding-right: 30px;
+  color: #7a7f84;
+}
+.Dishes .dishes-last {
+  justify-content: space-between;
+}
+
+.Dishes .dishes-price {
+  font-size: 23px;
+  font-weight: bold;
+  color: black;
+}
+.Dishes .dishes-btn {
+  padding: 11px 25px;
+}
+.Dishes .dishes-separate {
+  margin-top: 20px;
+}
+.dish-txt {
+  color: white;
+  font-size: 17px;
+}
+.cart {
+  color: white;
+  font-size: 23px;
+}

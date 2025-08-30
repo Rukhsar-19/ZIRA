@@ -1,0 +1,124 @@
+@import "../Fonts/SFprodisplay.css";
+.list-section {
+  background-color: rgb(31, 33, 37);
+  padding: 14px;
+}
+.list-section .list-info .list-name {
+  color: #51545a;
+  display: flex;
+  font-size: 16px;
+  gap: 120px;
+  padding-left: 132px;
+}
+.Search {
+  background-color: rgb(22, 24, 27);
+  padding-top: 20px;
+  padding-bottom: 196px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.search-pic {
+  background-color: transparent;
+}
+
+.Search .countsec .button-block {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.Search .button-block button {
+  padding: 0px 6px;
+  font-size: 11px;
+  width: 22px;
+  font-weight: bold;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  background-color: #73777d;
+  transition: background-color 0.3s;
+}
+
+.Search .button-block button:hover {
+  background-color: rgb(236, 118, 0);
+  color: white;
+}
+
+.Search .countsec .count-display {
+  margin-top: 3px;
+  font-size: 15px;
+  padding: 0 5px;
+  color: white;
+  font-weight: bold;
+}
+.Search .countsec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-close {
+  color: #ff9100;
+  font-size: 16px;
+}
+.search-close i {
+  margin-left: 10px;
+}
+.search-para {
+  font-size: 13px !important;
+  font-weight: 500 !important;
+}
+.Search .search-left .search-top {
+  background-color: #1f2125;
+  padding: 20px;
+}
+.Search .search-left .search-head {
+  color: white;
+  font-size: 15px;
+}
+.Search .search-left .search-content {
+  color: #73777d;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 9px 0;
+}
+.Search .search-left .basket-detail {
+  display: flex;
+  gap: 17px;
+  color: white;
+  align-items: center;
+}
+.Search .search-left .basket-btn {
+  background-color: #ff9100;
+  padding: 12px;
+  border:none;
+  border-radius: 14px;
+  width: 100%;
+  margin-top: 20px;
+}
+.Search .search-left .basket-txt {
+  text-align: center;
+  color: white;
+  font-size: 17px;
+}
+.Search .search-left .basket-name {
+  color: #73777d;
+  font-size: 15px;
+  font-weight: 600;
+}
+.Search .search-left .basket-number {
+  color: white;
+  font-size: 12px;
+}
+.search-last {
+  justify-content: center;
+}
+.button-block i {
+  font-size: 15px;
+}
+.Search .basket-info {
+  font-size: 14px;
+  color: #73777d;
+}

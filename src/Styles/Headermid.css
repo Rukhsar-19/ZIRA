@@ -1,0 +1,39 @@
+@import "../Fonts/SFprodisplay.css";
+.Headermid {
+  background-color: rgb(22, 24, 27);
+  padding: 26px;
+}
+
+.Headermid .headermidparent .breadcrumb {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Headermid .headermidparent .breadcrumb li {
+  margin-right: 8px;
+  position: relative;
+}
+.Headermid .headermidparent .breadcrumb li a {
+  text-decoration: none;
+  color: #7a7f84;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s ease, transform 0.3s ease;
+}
+.Headermid .headermidparent .breadcrumb li a:hover {
+  color: #ff9100;
+  transform: scale(1.1);
+}
+.Headermid .headermidparent .breadcrumb li::after {
+  content: "/";
+  margin-left: 8px;
+  font-size: 22px;
+  color: #7a7f84;
+  font-weight: bold;
+}
+
+.Headermid .headermidparent .breadcrumb li:last-child::after {
+  content: "";
+}

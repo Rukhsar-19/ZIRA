@@ -1,0 +1,133 @@
+@import "../Fonts/SFprodisplay.css";
+.Catalog {
+  background-color: rgb(22, 24, 27);
+  padding: 20px;
+}
+.leftmenu {
+  background-color: rgb(31, 33, 37);
+  height: 100%;
+}
+.sidebar {
+  padding: 33px;
+  color: #fff;
+}
+
+.sidebar h2 {
+  font-size: 23px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.menu-label {
+  padding: 7px 0;
+  color: #7a7f84;
+  font-size: 16px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-decoration: none;
+}
+
+.menu-label i {
+  font-size: 17px;
+  color: #7a7f84;
+}
+
+.menu-label:hover {
+  color: #ff9800;
+}
+
+.menu-item ul.submenu {
+  list-style: none;
+  padding-left: 15px;
+  margin: 0;
+  display: none;
+}
+
+.menu-item ul.submenu.open {
+  display: block;
+  color: #ff9800;
+}
+
+.menu-item ul.submenu li {
+  padding: 6px 0;
+  color: #999;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-item ul.submenu li:hover {
+  color: #ff9800;
+}
+
+.menu-item ul.submenu li.active {
+  color: #ff9800;
+  text-decoration: underline;
+}
+.submenu li a {
+  text-decoration: none;
+  color: #7a7f84;
+}
+
+.submenu li.active a {
+  color: orange;
+  font-weight: bold;
+}
+/* next col */
+.catalog-right {
+  background-color: #1f2125;
+}
+.catlaog-gap {
+  margin-top: 13px;
+}
+.catalog-right .catalog-para {
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+}
+.catalog-right .catalog-pic {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.catalog-right .catalog-detail {
+  color: #9a9fa5;
+  font-size: 11px;
+ 
+}
+.catalog-lastprice {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.catalog-btn {
+  background-color: orange;
+  border-radius: 40px 0px 0px 40px;
+  padding: 9px 26px;
+  border: none;
+  /* box-shadow: 0px 4px 13px rgba(255, 126, 0, 0.6); */
+}
+.catabtn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.catalog-last {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-end;
+ 
+}
+
+.cat-text {
+  font-size: 17px;
+}
+.catabtn i {
+  font-size: 20px;
+}

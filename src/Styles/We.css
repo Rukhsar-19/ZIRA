@@ -1,0 +1,168 @@
+@import "../Fonts/SFprodisplay.css";
+.We {
+  background-color: rgb(22, 24, 27);
+  padding: 20px;
+}
+.We .we-headwhite {
+  font-size: 23px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.We .we-first .we-para {
+  font-size: 16px;
+  color: #7a7f84;
+  margin: 10px 0;
+}
+.We .we-first .we-color {
+  color: #ff9100;
+  font-size: 16px;
+}
+.We .we-first .we-detail {
+  font-size: 14px;
+  color: #7a7f84;
+}
+.we-dist {
+  margin: 17px 0;
+}
+.we-parent {
+  align-items: center;
+  display: flex;
+
+  align-items: stretch;
+  gap: 0;
+  background: #1f2125;
+}
+
+.We .we-parent .we-img img {
+  display: block;
+  height: 118%;
+  width: auto;
+  object-fit: cover;
+}
+
+/* .We .we-parent .we-second {
+  display: flex;
+  align-items: center;
+} */
+
+.We .we-parent .we-loremback {
+  background-color: #1f2125;
+  padding: 16px;
+  color: #7a7f84;
+  max-width: 940px;
+  width: 100%;
+  height: 126%;
+  box-sizing: border-box;
+}
+
+.We .we-parent .we-loremcontent {
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 0;
+  word-wrap: break-word;
+}
+.We .we-parent .we-link {
+  font-size: 13px;
+  color: #51545a;
+  text-decoration: underline;
+  line-height: 1.4;
+  margin-top: 10px;
+  text-underline-offset: 4px;
+}
+.We .third-parent {
+  display: flex;
+}
+.We .third-parent .we-third {
+  position: relative;
+}
+.We .third-parent .we-label {
+  background: #000000;
+  opacity: 0.8;
+  border-radius: 0px;
+  padding: 10px;
+  width: 170px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+.We .third-parent .glass-content {
+  color: white;
+  font-size: 19px;
+}
+.We .third-parent .glass-sign i {
+  color: white;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+}
+.We .glass-orange {
+  color: #ff9100 !important;
+  font-size: 18px;
+}
+.We .third-parent .txt-orange {
+  color: #ff9100 !important;
+}
+
+.We .we-fourth .we-msg {
+  display: flex;
+  gap: 6px;
+  text-decoration: none;
+  color: #7a7f84;
+  font-size: 14px;
+}
+
+.We .we-fourth .we-mail {
+  margin: 5px 25px;
+  color: #7a7f84;
+  font-size: 14px;
+  text-decoration: none;
+}
+.We .we-fourth .we-allmsg {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.We .we-fourth .msg-cc {
+  color: #7a7f84;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.We .we-fourth .we-gp {
+  margin-top: 20px;
+}
+.We .we-fourth .we-mailphone {
+  background-color: #1f2125;
+  padding: 22px;
+  color: #7a7f84;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.We .we-fourth .we-map {
+  flex: 1;
+}
+.We .we-fourth .we-map img {
+  background: #1f2125;
+  opacity: 0.5;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.We .we-fourth {
+  display: flex;
+
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+  width: 100%;
+  background: #1f2125;
+}

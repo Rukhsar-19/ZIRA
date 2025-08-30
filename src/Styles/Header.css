@@ -1,0 +1,162 @@
+@import "../Fonts/SFprodisplay.css";
+.Header {
+  background-color: rgb(22, 24, 27);
+}
+.Header .header-parent {
+  display: flex;
+}
+.Header .header-left {
+  padding: 34px 37px;
+  width: 15%;
+}
+.Header .header-right {
+  width: 85%;
+  padding-top: 16px;
+}
+.Header .header-right .header-top-links {
+  display: flex;
+  gap: 66px;
+  border-bottom: 2px solid #36393e;
+  padding: 20px 0;
+}
+
+.Header .header-right .header-circle {
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  padding: 3px;
+  background: #707070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+.Header .header-right .header-circle:hover {
+  background: #ff9100;
+  transform: scale(1.1);
+}
+
+.Header .header-right .socialicons-header {
+  display: flex;
+  gap: 13px;
+  margin-left: 171px;
+}
+.Header .header-right .socialicons-header i {
+  color: black;
+}
+.Header .header-right .header-alllinks {
+  display: flex;
+  gap: 34px;
+}
+.Header .header-right .orangecircle {
+  background-color: #ff9100;
+}
+.orangeLink {
+  color: #ff9100 !important;
+  font-size: 15px!important;
+}
+
+.Header .header-right .header-alllinks li a {
+  text-decoration: none;
+  color: #73777d;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.Header .header-right .header-alllinks a:hover {
+  color: #ff9100;
+  transform: scale(1.05);
+}
+
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  padding-right: 12px;
+  border-bottom: 1px solid #73777d;
+  background-color: transparent;
+}
+
+.Header .header-right .search-container {
+  position: relative;
+}
+/* .Header .header-right .search-icon {
+  position: absolute;
+  bottom: 4px;
+  right: -28px;
+} */
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Header .header-right .search-icon i {
+  color: #ff9100;
+  font-size: 17px;
+}
+
+.Header .header-right .header-lasticons {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+
+.Header .header-right .cart-no {
+  color: #73777d;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.Header .header-right .cart-no:hover {
+  color: #ff9100;
+  transform: scale(1.05);
+}
+.Header .header-right .header-lasticons i {
+  color: #73777d;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.Header .header-name {
+  text-decoration: none;
+  color: #73777d;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.Header .header-name:hover {
+  color: #ff9100;
+  transform: scale(1.05);
+}
+
+.Header .header-right .header-inputs {
+  display: flex;
+  justify-content: flex-end;
+  gap: 61px;
+  padding-top: 16px;
+  padding-right: 37px;
+}
+.btn-fire {
+  display: flex;
+  align-items: center;
+  background-color: #ff9100;
+  gap: 4px;
+  border-radius: 60px;
+  padding: 6px 14px;
+  border: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-fire i {
+  color: black !important;
+  transition: color 0.3s ease;
+}
+.btn-text {
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn-fire:hover {
+  background-color: white;
+  box-shadow: 0 4px 10px #ff9100;
+}

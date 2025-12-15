@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Styles/Commonstyles.css";
-import "remixicon/fonts/remixicon.css";
+// import "remixicon/fonts/remixicon.css";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Footer from "./Components/Footer";

@@ -1,6 +1,6 @@
 import React from "react";
-import "../Styles/Filters.css";
-import Dropdown from "react-bootstrap/Dropdown";
+// import "../Styles/Filters.css";
+// import Dropdown from "react-bootstrap/Dropdown";
 const Filters = () => {
   // dropdown
   const handleFocus = (e: React.FocusEvent<HTMLSelectElement>) => {

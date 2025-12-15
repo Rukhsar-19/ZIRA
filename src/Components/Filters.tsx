@@ -1,5 +1,5 @@
 import React from "react";
-// import "../Styles/Filters.css";
+ import "../Styles/Filters.css";
 // import Dropdown from "react-bootstrap/Dropdown";
 import { Dropdown } from "react-bootstrap";
 
